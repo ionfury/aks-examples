@@ -44,7 +44,7 @@ variable "vnet_subnet_id" {
 }
 
 variable "vm_size" {
-  default     = "Standard_DS3_v2"
+  default     = "Standard_B2s"
   type        = "string"
   description = "The size/type of the VM we will provide K8s for nodes."
 }
@@ -56,7 +56,7 @@ variable "os_type" {
 }
 
 variable "os_disk_size_gb" {
-  default     = 30
-  description = "The disk size of VMs, default is 30 GB."
+  default     = 100
+  description = "The disk size of VMs, default is 100 GB."
 }
 
