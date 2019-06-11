@@ -11,7 +11,7 @@ module "acr" {
 
     resource_group_name="ion-acr"
     resource_group_location="eastus"
-    acr_name="ionacr"
+    acr_name="ionfuryacr"
 }
 
 module "ips" {
